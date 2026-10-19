@@ -1,0 +1,8 @@
+{
+  "name": "khurshid-platforma",
+  "version": "1.0.0",
+  "description": "Teacher Khurshid IELTS reyting platformasi",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
