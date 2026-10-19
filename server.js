@@ -220,4 +220,4 @@ http.createServer(async (req, res) => {
     }
     send(res, 404, { error: 'Topilmadi' });
   } catch (e) { send(res, e.code >= 400 && e.code < 600 ? e.code : 500, { error: e.code ? e.message : 'Server xatosi' }); if (!e.code) console.error(e); }
-}).listen(PORT, () => console.log('Platforma ishga tushdi: http://localhost:' + PORT));
+}).listen(PORT, () => console.log('Platforma ishga tushdi: http://localhost:' + PORT));                                                                            module.exports = server;
